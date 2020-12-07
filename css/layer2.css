@@ -1,0 +1,116 @@
+.eye-ball{
+    width: 35px;
+    height: 20px;
+    background: #1e201f;
+    left:10px;
+    position: absolute;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.a{
+    height: 35px;
+    width: 4px;
+    border-radius: 25px;
+    position: absolute;
+    background: #546737;
+    top:-16px;
+}
+
+.left{
+    left:15px;
+}
+.center{
+    left:40px;
+}
+.right{
+    left:65px;
+}
+
+.flick1{
+    clip-path: polygon(0 0,0% 100%, 100% 0);
+    width: 70px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    top:40px;
+    left:0px;
+}
+
+.flick2{
+    clip-path:polygon(0 0,50% 100%,100% 0);
+    width: 80px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    top:40px;
+    left:30px;
+}
+
+
+.flick3{
+    clip-path:polygon(0 0,50% 100%,100% 0);
+    width: 80px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    top:40px;
+    left:90px;
+}
+
+.flick4{
+    clip-path:polygon(0 0,50% 100%,100% 0);
+    width: 80px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    top:40px;
+    left:150px;
+}
+
+.flick5{
+    clip-path:polygon(0 0,100% 100%,100% 0);
+    width: 70px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    top:40px;
+    left:180px;
+}
+
+.nail{
+    height:30px;
+    width:30px;
+    background: #979b90;
+    position: absolute;
+    z-index:999;
+}
+
+.lft{
+    top:156px;
+    left:-29px;
+}
+
+.rgt{
+    top:156px;
+    left:229px;
+}
+
+.nail1{
+    width: 20px;
+    height: 45px;
+    background: #979b90;
+    top:-8px;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.nail2{
+    width: 20px;
+    height: 45px;
+    background: #979b90;
+    top:-8px;
+    position: absolute;
+    border-radius: 5px;
+    left:10px;
+}

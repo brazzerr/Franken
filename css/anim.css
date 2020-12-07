@@ -1,0 +1,25 @@
+.eye-ball{
+    animation: roll 5s infinite;
+    animation-delay: 1s;
+}
+
+@keyframes roll{
+    0%{
+        left:10px;
+    }
+    10%{
+        left:10px;
+    }
+    30%{
+        left:0px;
+    }
+    55%{
+        left:20px;
+    }
+    70%{
+        left:0px;
+    }
+    100%{
+        left:10px;
+    }
+}
